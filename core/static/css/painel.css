@@ -1,0 +1,72 @@
+
+img.avatar {
+    width: 28px;
+    border-radius: 50%
+}
+
+body {
+    padding-top: 0rem;
+    color: #2b2626;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+
+img.logoNav{
+    width: 150px;
+
+}
+
+div_topindex  {    
+
+    background-color:#000;
+    width:100%;
+    min-height:50%;
+    height:auto;
+    opacity: .50;
+    filter: alpha(opacity=65);
+}
+
+div.bg-blue  {
+    background-color: red;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  .imghome {
+    width: 900px;
+    height: 100px;
+    object-fit: scale-down;
+}
+
+.img-home img{
+    width: 700px;    /* largura da imagem */
+    height: 350px;   /*  altura da imagem  */
+    margin-top: 10px; /* margem do topo */
+
+    }

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+
+{%block titulo %} - Contato {% endblock %}
+
+{% block conteudo %}
+    <!-- <h1 class="text-center" >Entre em contato!</h1> -->
+    <form method="POST" novalidate>
+        {% csrf_token %}
+        <h1 class="py-2 mt-10">Entre em contato conosco!</h1>
+        <div id="login-row" class="col-sm-10 col-xs-offset-1">
+            {% include "forms/form-group.html" with form=form %}
+         </div>
+       
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+{% endblock %}
