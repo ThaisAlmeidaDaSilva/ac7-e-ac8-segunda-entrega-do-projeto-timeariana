@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block titulo %}
+    Inscreva-se
+{% endblock %}
+
+{% block main %}
+<form method="POST" novalidate>
+    {% csrf_token %}
+    <h1>Inscreva-se!</h1>
+    {% include "forms/form-group.html" with form=aluno_form %}
+    <fieldset>
+        <legend>Dados de Acesso</legend>
+        {% include "forms/form-group.html" with form=usuario_form %}
+    </fieldset>
+    <button type="submit" class="btn btn-primary mb-2">Informar</button>
+</form>
+{% endblock %}

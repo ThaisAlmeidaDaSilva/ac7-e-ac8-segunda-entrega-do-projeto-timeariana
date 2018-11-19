@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+{% block titulo %}
+    {{ curso.nome }}
+{% endblock  %}
+
+{% block links %}
+<link rel="stylesheet" href="{% static 'css/curso.css' %}">
+{% endblock %}
+
+{% block main %}
+    <section class="container d-flex flex-wrap justify-content-between">
+        <h1 class="text-center w-100">{{ curso.nome }}</h1>
+
+        <section class="sobre border bg-light border-primary mx-2 p-3">
+            <h2>Sobre o Curso</h2>
+            {{ curso.sobre | linebreaks }}
+        </section>
+        <section class="informacoes mx-2">
+            <h2>Informações</h2>
+
+            <h3>{{ curso.get_tipo_display }}</h3>
+
+            <p><span class="font-weight-bold text-primary">Período:</span></p>
+
+            <ul class="list-group">
+                {% if curso.diurno %}<li class="list-group-item"><span class="font-weight-bold text-primary">Matutino</span> | 08h00 às 11h40 |</li>{% endif %}
+                {% if curso.noturno %}<li class="list-group-item"><span class="font-weight-bold text-primary">Noturno</span> | 19h00 às 23h40 |</li>{% endif %}
+            </ul>
+
+            <p><span class="font-weight-bold text-primary">Duração:</span> {{ curso.duracao }} semestres</p>
+
+        </section>
+        <section class="curriculo w-100 text-center my-2">
+            <h2>Matriz Curricular</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        {% for semestre in curso.semestres %}
+                            <a class="nav-link {% if forloop.first %}active{% endif %}" id="v-pills-{{ semestre }}-tab" data-toggle="pill" href="#v-pills-{{ semestre }}" role="tab" aria-controls="v-pills-{{ semestre }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ semestre }}º Semestre</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        {% for semestre in curso.semestres %}
+                            <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="v-pills-{{ forloop.counter }}" role="tabpanel" aria-labelledby="v-pills-{{ forloop.counter }}-tab">
+                                <div class="list-group text-left">
+                                    {% for oferta in ofertas %}
+                                        {% if oferta.semestre == semestre %}
+                                            <a href="#" class="list-group-item list-group-item-action">{{ oferta.disciplina.nome }}: {{ oferta.disciplina.carga_horaria }}h</a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+{% endblock  %}

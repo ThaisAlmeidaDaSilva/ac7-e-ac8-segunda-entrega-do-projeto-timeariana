@@ -1,0 +1,110 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+
+    <title>LMS Impacta{% block titulo %} {% endblock %}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous" defer></script>
+
+
+    <link href="{% static 'css/painel.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-success opacity">
+            <a class="navbar-brand text-white font-weight-bold" href="{% url 'core:home' %}">
+                <img src="{% static 'imagens/logo-faculdade-branco.png' %}" class="logoNav" alt="logo da Impacta" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white font-weight-bold" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {% for curso in cursos %}
+                            <a class="dropdown-item" href="{% url 'curriculo:curso' curso.sigla %}"> {{ curso.nome }}
+                            </a>
+                            {% empty %}
+                            <p class="p-2 text-muted">
+                                Nenhum curso cadastrado
+                            </p>
+                            {% endfor %}
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link disabled text-white font-weight-bold" href="{% url 'core:contato' %}">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav">
+                {% if not user.is_authenticated %}
+                <li class="nav-item">
+                    <div class="btn-group" role="group" aria-label="usuário">
+                        <a class="btn btn-outline-primary" href="{% url 'core:entrar' %}">Entrar</a>
+                    </div>
+                </li>
+                {% else %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="{% static 'imagens/profile.png' %}" class="avatar" alt="foto do usuário" />
+                        Olá,  {{usuario.nome }} - {{ user }} 
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
+                        {% if user.tipo == 'C' %}
+                        <a class="dropdown-item" href="{% url 'restrito:home_coordenador'  %}">Área do Coordenador</a>
+                        {% elif user.tipo == 'P' %}
+                        <a class="dropdown-item" href="{% url 'restrito:home_professor' %}">Área do Professor</a>
+                        {% else %}
+                        <a class="dropdown-item" href="{% url 'restrito:home_aluno' %}">Área do Aluno</a>
+                        {% endif%}
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{% url 'core:sair' %}">Sair</a>
+                    </div>
+                </li>
+                {% endif %}
+        </nav>
+    </header>
+    <main role="main">
+        {% if messages %}
+        {% for message in messages %}
+        <div role="alert" class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags }}{% endif %}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% block conteudo %}
+
+        {% endblock %}
+        <footer>
+            <hr />
+            <p class="text-center">Todos os direitos reservados - Faculdade Impacta 2018</p>
+        </footer>
+
+
+</body>
+
+</html>
