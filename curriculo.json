@@ -1,0 +1,1087 @@
+[
+    {
+        "model": "curriculo.curso",
+        "pk": 1,
+        "fields": {
+            "nome": "An\u00e1lise e Desenvolvimento de Sistemas",
+            "sigla": "ADS",
+            "sobre": "Entender as necessidades das empresas \u00e9 fundamental para faz\u00ea-las crescer e gerar bons resultados. Desta maneira, um dos caminhos para alavancar os neg\u00f3cios e se destacar no mercado de trabalho \u00e9 o da Tecnologia. Para isso, a Faculdade Impacta oferece a gradua\u00e7\u00e3o em An\u00e1lise e Desenvolvimento de Sistemas, que prepara voc\u00ea para atuar em todas as etapas de projetos de tecnologia da informa\u00e7\u00e3o - concep\u00e7\u00e3o, ger\u00eancia e manuten\u00e7\u00e3o, aplica\u00e7\u00e3o e mensura\u00e7\u00e3o de resultados.\r\n\r\nO curso \u00e9 voltado para a cria\u00e7\u00e3o de programas, softwares e sistemas para as empresas. As etapas do projeto de sistemas de software, como an\u00e1lise, projeto, teste, gest\u00e3o, implanta\u00e7\u00e3o e manuten\u00e7\u00e3o de sistemas de informa\u00e7\u00e3o tamb\u00e9m est\u00e3o entre os aprendizados da gradua\u00e7\u00e3o.",
+            "duracao": 4,
+            "tipo": "T",
+            "noturno": true,
+            "diurno": true
+        }
+    },
+    {
+        "model": "curriculo.curso",
+        "pk": 2,
+        "fields": {
+            "nome": "Gest\u00e3o da Tecnologia da Informa\u00e7\u00e3o",
+            "sigla": "GTI",
+            "sobre": "A gradua\u00e7\u00e3o em Gest\u00e3o da Tecnologia da Informa\u00e7\u00e3o prepara voc\u00ea para a lideran\u00e7a em TI. Apto a criar solu\u00e7\u00f5es para problemas nas organiza\u00e7\u00f5es, voc\u00ea vai fazer a administra\u00e7\u00e3o de infraestrutura f\u00edsica e l\u00f3gica de ambientes informatizados.\r\n\r\nO curso aborda t\u00e9cnicas precisas que servem para executar sistemas informatizados de forma segura para os neg\u00f3cios atrav\u00e9s do gerenciamento de recursos de tecnologia nas organiza\u00e7\u00f5es, entre elas software, redes de computadores, bancos de dados e ferramentas para seguran\u00e7a da informa\u00e7\u00e3o.\r\n\r\nAl\u00e9m disso, voc\u00ea vai aprender a fazer a gest\u00e3o de pessoas, a elaborar planos de neg\u00f3cios sobre TI e gerir projetos para garantir os acordos de n\u00edvel de servi\u00e7os (SLA).",
+            "duracao": 4,
+            "tipo": "T",
+            "noturno": true,
+            "diurno": true
+        }
+    },
+    {
+        "model": "curriculo.curso",
+        "pk": 3,
+        "fields": {
+            "nome": "Banco de Dados",
+            "sigla": "BD",
+            "sobre": "O curso de Banco de Dados prepara o aluno para ser um profissional vers\u00e1til e com habilidades para atuar com diversas plataformas e estruturas de desenvolvimento e administra\u00e7\u00e3o de sistemas de Banco de Dados, com acesso a todo o repert\u00f3rio t\u00e9cnico e te\u00f3rico da \u00e1rea.\r\n\r\nA gradua\u00e7\u00e3o mostra a import\u00e2ncia da seguran\u00e7a de compartilhamento de dados nas empresas modernas e ensina as melhores t\u00e9cnicas e ferramentas de cria\u00e7\u00e3o e implementa\u00e7\u00e3o da mesma.\r\n\r\nNa Impacta, voc\u00ea ser\u00e1 preparado para o cen\u00e1rio real de gest\u00e3o e lideran\u00e7a empresarial, garantindo a capacidade de comunica\u00e7\u00e3o e criatividade para solucionar problemas, atingir os melhores resultados, aumentar a produtividade e reduzir custos.",
+            "duracao": 4,
+            "tipo": "T",
+            "noturno": true,
+            "diurno": true
+        }
+    },
+    {
+        "model": "curriculo.curso",
+        "pk": 4,
+        "fields": {
+            "nome": "Sistemas da Informa\u00e7\u00e3o",
+            "sigla": "SI",
+            "sobre": "A Gradua\u00e7\u00e3o de Sistemas de Informa\u00e7\u00e3o prepara o aluno para ser um profissional transformador do mercado, desenvolvendo solu\u00e7\u00f5es inovadoras e criativas na constru\u00e7\u00e3o e utiliza\u00e7\u00e3o de Sistemas de Informa\u00e7\u00e3o.\r\n\r\nO aluno aprender\u00e1 os conceitos te\u00f3ricos e usos pr\u00e1ticos da \u00e1rea, ir\u00e1 acompanhar as principais inova\u00e7\u00f5es tecnol\u00f3gicas do mercado e habilitar a sua capacidade empreendedora.\r\n\r\nO objetivo \u00e9 formar profissionais capazes de atuar na \u00e1rea de Tecnologia da Informa\u00e7\u00e3o, criando pr\u00e1ticas tecnol\u00f3gicas para determinar o fluxo de informa\u00e7\u00f5es com o desenvolvimento de software e no gerenciamento de sistemas informatizados. Ao final do 2.\u00ba ano, os alunos j\u00e1 ter\u00e3o o diploma de Tecn\u00f3logo em An\u00e1lise e Desenvolvimento de Sistemas.",
+            "duracao": 8,
+            "tipo": "G",
+            "noturno": true,
+            "diurno": true
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 1,
+        "fields": {
+            "nome": "Comunica\u00e7\u00e3o e Express\u00e3o EaD",
+            "identificador": "CE",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "A flu\u00eancia na l\u00edngua materna possibilita a plena compreens\u00e3o dos textos indicados e a excel\u00eancia na produ\u00e7\u00e3o cientifica. Aplica\u00e7\u00e3o pr\u00e1tica da expressividade ao falar em p\u00fablico, com direcionamento acad\u00eamico e empresarial. Desenvolvimento de textos corporativos e cient\u00edficos. Leitura cr\u00edtica e interpretativa. Elabora\u00e7\u00e3o de textos, permeados pela clareza, intencionalidade, coes\u00e3o e coer\u00eancia. Orienta\u00e7\u00e3o para emprego da ABNT em produ\u00e7\u00f5es cient\u00edficas.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 2,
+        "fields": {
+            "nome": "Fundamentos de Banco de Dados",
+            "identificador": "FB",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o aos Sistemas Gerenciadores de Banco de Dados. Projeto de Banco de Dados. Projeto Conceitual de Banco de Dados: Modelo Entidade Relacionamento: UML: Uso de Diagramas de Classes da UML para representar as Abstra\u00e7\u00f5es de Generaliza\u00e7\u00e3o, Agrega\u00e7\u00e3o e Composi\u00e7\u00e3o. Projeto L\u00f3gico de Banco de Dados: Modelo Relacional; Normaliza\u00e7\u00e3o.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 3,
+        "fields": {
+            "nome": "Introdu\u00e7\u00e3o \u00e0 IOT",
+            "identificador": "IOT",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 computa\u00e7\u00e3o ub\u00edqua. Desenvolvimento de solu\u00e7\u00f5es IoT. Tipos de transdutores, sensores e atuadores. Componentes b\u00e1sicos do computador e dispositivos de Internet das coisas (Arduino). Funcionalidades dos subsistemas de mem\u00f3ria, unidade central de processamento, barramentos e sistema de entrada/sa\u00edda. Processos, sistemas de arquivos e drivers.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 4,
+        "fields": {
+            "nome": "Linguagem de Programa\u00e7\u00e3o I",
+            "identificador": "LPI",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o e Conceitos de Programa\u00e7\u00e3o e Linguagem de Programa\u00e7\u00e3o. Linguagem de Programa\u00e7\u00e3o Python. Tipos de Dados. Estruturas l\u00f3gicas ou de controle de fluxo. Modulariza\u00e7\u00e3o. M\u00e9todos. Classes. Desenvolvimento de projeto IoT.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 5,
+        "fields": {
+            "nome": "L\u00f3gica de Programa\u00e7\u00e3o",
+            "identificador": "LP",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 L\u00f3gica e aos Algoritmos. Tipos de Dados. Estruturas l\u00f3gicas ou de controle de fluxo. Modulariza\u00e7\u00e3o. Introdu\u00e7\u00e3o \u00e0s Estruturas de Dados. Estruturas de Dados Homog\u00eaneas. M\u00e9todos de Busca (Busca Linear e Busca Bin\u00e1ria). M\u00e9todos de Ordena\u00e7\u00e3o (M\u00e9todos Bolha, Inser\u00e7\u00e3o e Sele\u00e7\u00e3o).",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 6,
+        "fields": {
+            "nome": "Matem\u00e1tica Aplicada",
+            "identificador": "MA",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Fundamentos: Rela\u00e7\u00f5es, Fun\u00e7\u00f5es e Matrizes. L\u00f3gica Formal: Proposi\u00e7\u00f5es, representa\u00e7\u00f5es simb\u00f3licas; L\u00f3gica proposicional; Quantificadores, Predicados e Validade; L\u00f3gica de Predicados. Conjuntos, Combinat\u00f3ria e Probabilidade: Teoria de Conjuntos; Contagem, Permuta\u00e7\u00f5es e Combina\u00e7\u00f5es. Estat\u00edstica Descritiva: Distribui\u00e7\u00e3o de frequ\u00eancia, histograma; Medidas de tend\u00eancia central: M\u00e9dia, mediana e moda; Medidas de Dispers\u00e3o: desvio padr\u00e3o, vari\u00e2ncia.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 7,
+        "fields": {
+            "nome": "Ambiente de Desenv e Opera\u00e7\u00e3o",
+            "identificador": "ADO",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Gerenciamento e Configura\u00e7\u00e3o de Mudan\u00e7as. Instala\u00e7\u00e3o e configura\u00e7\u00e3o de ambientes operacionais e ferramentas em m\u00e1quinas virtuais, local e em nuvem: Sistema Operacional, Compilador / Interpretador, Ambientes de Testes de Unidade. Git / GitHub, Servidor de Aplica\u00e7\u00e3o e wikis. Utilizando os ambientes criados para a especifica\u00e7\u00e3o e codifica\u00e7\u00e3o da OPE.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 8,
+        "fields": {
+            "nome": "Engenharia de Software",
+            "identificador": "ES",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Conceitos fundamentais da Engenharia de Software. Abordagens de An\u00e1lise de Software. Processos de Software. Disciplinas do curso e perfil profissional. Defini\u00e7\u00e3o das OPEs. Checklists da Engenharia de Requisitos. T\u00e9cnicas: Entrevista, Question\u00e1rio, Comit\u00ea de Especialistas, An\u00e1lise de Problemas, Workshop de Caracter\u00edsticas, Baseline de Caracter\u00edsticas e a T\u00e9cnica de Reuni\u00e3o Formal: Walkthroughs.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 9,
+        "fields": {
+            "nome": "Gest\u00e3o de Projetos EaD",
+            "identificador": "GP",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 40,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 gest\u00e3o tradicional de projetos. PMI. PMI. Agile Mindset. Manifesto A\u0301gil. Gest\u00e3o \u00c1gil de Projetos (SCRUM): Ger\u00eancia de time autogerenci\u00e1vel e os pap\u00e9is. Time-boxes. Sprint. Planning meeting. Review meeting. feedback. Retrospectiva e daily scrum. Scrum Master. Pr\u00e1ticas Scrum.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 10,
+        "fields": {
+            "nome": "Libras EaD",
+            "identificador": "Libras",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 40,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Aquisi\u00e7\u00e3o de uma nova l\u00edngua: L\u00edngua Brasileira de Sinais (LIBRAS).</p>\r\n<p>Oferecer o conceito de Libras, Fundamentos hist\u00f3ricos da educa\u00e7\u00e3o de surdos. Legisla\u00e7\u00e3o espec\u00edfica. Aspectos Lingu\u00edsticos da Libras. Compreender os principais aspectos da L\u00edngua Brasileira de Sinais \u2013 Libras, l\u00edngua oficial da comunidade surda brasileira, contribuindo para a inclus\u00e3o educacional dos alunos surdos.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 11,
+        "fields": {
+            "nome": "Linguagem SQL",
+            "identificador": "SQL",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 Linguagem SQL. Conceitos B\u00e1sicos. Linguagem de Defini\u00e7\u00e3o de Dados. Linguagem de Manipula\u00e7\u00e3o de Dados. Fun\u00e7\u00e3o e Procedimentos. Declara\u00e7\u00e3o de vari\u00e1vel. Express\u00f5es. Instru\u00e7\u00f5es B\u00e1sicas. Estruturas de Controle. Recursos Avan\u00e7ados. Gatilhos (Triggers). \u00cdndices e M\u00e9todos de busca.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 12,
+        "fields": {
+            "nome": "Linguagem de Programa\u00e7\u00e3o II",
+            "identificador": "LPII",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Aplica\u00e7\u00e3o de listas e dicion\u00e1rios. Projetos de desenvolvimento de solu\u00e7\u00f5es. Programa\u00e7\u00e3o orientada a objetos. Arquivos e estrat\u00e9gias de persist\u00eancia de dados. Padr\u00f5es de projeto. Testes unit\u00e1rios automatizados.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 13,
+        "fields": {
+            "nome": "Sociedade e Sustentabilidade",
+            "identificador": "SS",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 40,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Identificar o papel do administrador de empresa no s\u00e9culo XXI, considerando  a fundamenta\u00e7\u00e3o te\u00f3rica, sob uma \u00f3tica de desenvolvimento sustent\u00e1vel, vislumbrando Organiza\u00e7\u00f5es em equil\u00edbrio Econ\u00f4mico-financeiro e que respeitem a sociedade e o meio ambiente. Desenvolver compet\u00eancias, para compreender o mundo a seu redor e propor alternativas menos danosas ao meio ambiente e a sociedade, sempre com a premissa da sa\u00fade financeira da Organiza\u00e7\u00e3o, bem como, de oportunidade de neg\u00f3cios.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 14,
+        "fields": {
+            "nome": "Tecnologia Web",
+            "identificador": "TW",
+            "data": "2018-10-30",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Conceitos e fundamentos: Internet, Intranet e Extranet. Arquitetura Cliente-Servidor. Desenvolvimento de aplica\u00e7\u00f5es WEB Padr\u00f5es Web. HTML (HyperText Markup Language) e CSS ( Cascading Style Sheets). Sintaxe, comandos JavaScript e integra\u00e7\u00e3o com HTML. No\u00e7\u00f5es de NodeJS. Python e Framework de Desenvolvimento.  Arquitetura Model-View-Controller; a camada de acesso a banco de dados; Padr\u00e3o de endere\u00e7amento http; aspetos de seguran\u00e7a, componentiza\u00e7\u00e3o JQuery + AJAX.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 15,
+        "fields": {
+            "nome": "Estrutura de Dados",
+            "identificador": "ED",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Tipo de dado e Tipos abstratos de dados. Recursividade com revis\u00e3o de listas lineares; Arrays associativos. M\u00e9todos de busca e ordena\u00e7\u00e3o. Lista, pilha e fila. Tabelas de Espalhamento. Dicion\u00e1rios e Conjuntos. \u00c1rvores. Grafo. Desenvolvimento de um projeto de aplica\u00e7\u00e3o.",
+            "competencias": "asdasd",
+            "habilidades": "asdasd",
+            "ementa": "asdasd",
+            "conteudo_programatico": "asdasd",
+            "bibliografia_basica": "Bibliografia B\u00e1sica",
+            "bibliografia_complementar": "asasdasd"
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 16,
+        "fields": {
+            "nome": "Arq e Projeto de Sistemas",
+            "identificador": "APS",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Desenvolvimento da arquitetura de sistemas de software de forma \u00e1gil. Padr\u00f5es de Comunica\u00e7\u00e3o, Servi\u00e7o e Persist\u00eancia de Dados. QFD para avaliar a qualidade da arquitetura. Apoio \u00e0s equipes das OPEs no desenvolvimento e implanta\u00e7\u00e3o de seus sistemas.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 17,
+        "fields": {
+            "nome": "An\u00e1lise e Modelagem de Sistema",
+            "identificador": "AMS",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 An\u00e1lise e Modelagem de Sistemas. Requisitos e An\u00e1lise de Requisitos. Modelagem de Casos de Uso. T\u00e9cnica para escrever casos de uso. Detalhamento de casos de uso. Uso correto de Includes / Extends e Especializa\u00e7\u00e3o/Generaliza\u00e7\u00e3o. Documento SRS (Software Requirements Specifications). Elabora\u00e7\u00e3o da SRS do Projeto de OPE \u2013 Oficina de Projeto de Empresa.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 18,
+        "fields": {
+            "nome": "Des. Aplica\u00e7\u00f5es Distribu\u00eddas",
+            "identificador": "DAD",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 75,
+            "percentual_teorico": 25,
+            "plano_de_ensino": "Arquitetura Orientada a Servi\u00e7os e Web Service; Padr\u00f5es, protocolos e especifica\u00e7\u00f5es; Frameworks e API's para o desenvolvimento de Web Services; Desenvolvimento de Web Services; Modelo de seguran\u00e7a; SOA, RESTFul Web Services e OAuth. Pr\u00e1ticas: Defini\u00e7\u00e3o de arquitetura orientada a servi\u00e7os envolvendo aplica\u00e7\u00f5es web, IoT e M\u00f3vel; Implementa\u00e7\u00e3o usando o WCF (Windows Communication Foundation).",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 19,
+        "fields": {
+            "nome": "Interface Homem-computador",
+            "identificador": "IHC",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 40,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Fatores Humanos de Intera\u00e7\u00e3o, Teorias, princ\u00edpios e diretrizes. Teste de usabilidade. Gest\u00e3o de processos de design. Prototipa\u00e7\u00e3o de interfaces. Metodologia para desenvolvimento de interfaces us\u00e1veis.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 20,
+        "fields": {
+            "nome": "Modelagem Processos de Neg\u00f3cio",
+            "identificador": "MPN",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Preparar o profissional para ter a vis\u00e3o estrat\u00e9gica do neg\u00f3cio, preparando-o desta forma,  para intervir na organiza\u00e7\u00e3o por meio das a\u00e7\u00f5es pr\u00f3prias do analista, tais como, formatar, definir o design da estrutura organizacional e racionaliza\u00e7\u00e3o de processos. Demonstrar as ferramentas para a  produtividade: fluxograma, organogramas, funcionograma, \u201clayout \u2013 arranjo f\u00edsico.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 21,
+        "fields": {
+            "nome": "OPE1 - Oficina Projeto Empresa",
+            "identificador": "OPE1",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Configura\u00e7\u00e3o do Ambiente de Projeto e do Ambiente de Desenvolvimento. SCRUM na pr\u00e1tica: Desenvolvimento das OPEs em Sprints. An\u00e1lise dos resultados. Orienta\u00e7\u00f5es dos grupos para mitigar problemas ou melhorar o processo / produto. T\u00e9cnicas de apresenta\u00e7\u00e3o. Template da Monografia de OPE. Agendamento de reuni\u00f5es e defini\u00e7\u00e3o de cronogramas.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 22,
+        "fields": {
+            "nome": "Des. para Dispositivos M\u00f3veis",
+            "identificador": "DDM",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Conceitos fundamentais de desenvolvimento Mobile. Aplicativos m\u00f3veis e tecnologias (XDK, HTML, CSS, JavaScript e frameworks). HTML, CSS e Javascript. Ambiente de desenvolvimento: XDK. Frameworks e ferramentas. Material Design e Angular. Consumo de Web Services e APIs. Utiliza\u00e7\u00e3o de recursos do dispositivo. Mapas e localiza\u00e7\u00e3o. Reposit\u00f3rio de dados: SQLite e Local Storage. Notifica\u00e7\u00f5es. Desenvolvimento de projeto.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 23,
+        "fields": {
+            "nome": "Des. Internet das Coisas IoT",
+            "identificador": "DIoT",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Kit comercial para desenvolvimento IoT. Laborat\u00f3rios de Constru\u00e7\u00e3o de M\u00f3dulos. Desenvolvimento de projeto.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 24,
+        "fields": {
+            "nome": "Legisla\u00e7\u00e3o e \u00c9tica",
+            "identificador": "LE",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 40,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Direito Digital. Propriedade Intelectual em especial Direito Autoral. Lei de Software. Princ\u00edpios Gerais do Direito do Consumidor. Licita\u00e7\u00f5es e Contratos de Inform\u00e1tica. Tributa\u00e7\u00e3o de Software e de Servi\u00e7os de Inform\u00e1tica. \u00c9tica Profissional: Regula\u00e7\u00e3o Profissional.",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 25,
+        "fields": {
+            "nome": "OPE2 -Oficina Projeto Empresa",
+            "identificador": "OPE2",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "MVP (Minimum Viable Product). Modelagem de neg\u00f3cio e de an\u00e1lise e modelagem de sistemas envolvendo clientes reais. Desenvolvimento da arquitetura l\u00f3gica do sistema. Utiliza\u00e7\u00e3o do ambiente DevOps. Especifica\u00e7\u00e3o t\u00e9cnica do sistema (monografia da OPE).",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplina",
+        "pk": 26,
+        "fields": {
+            "nome": "Qualidade de Software",
+            "identificador": "QS",
+            "data": "2018-11-03",
+            "status": "ABERTO",
+            "carga_horaria": 80,
+            "percentual_pratico": 50,
+            "percentual_teorico": 50,
+            "plano_de_ensino": "Introdu\u00e7\u00e3o \u00e0 Qualidade de Software. Qualidade de Produto x Processo. Padr\u00f5es da Qualidade: Norma ISO 9126. Ger\u00eancia da Qualidade. Melhorias de Processo: Modelos de Maturidade: CMMI; MR MPs; ISO 15504. Testes de Software: Verifica\u00e7\u00e3o x Valida\u00e7\u00e3o: Teste, Inspe\u00e7\u00e3o, Revis\u00e3o. Fases da Atividade de Teste. Teste Funcional, Teste Estrutural, Gera\u00e7\u00e3o de Dados de Teste. Estrutura dos artefatos de Testes. Automa\u00e7\u00e3o de Testes. Pr\u00e1ticas de Teste de Software: Teste de Caixa Branca; Teste de Caixa Preta; Testes Automatizados; TDD (Test-Driven Development).",
+            "competencias": "",
+            "habilidades": "",
+            "ementa": "",
+            "conteudo_programatico": "",
+            "bibliografia_basica": "",
+            "bibliografia_complementar": ""
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 1,
+        "fields": {
+            "dt_inicio": "2018-07-01",
+            "dt_fim": "2018-12-31",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "Metodologia de ensino",
+            "recursos": "Recursos da disciplina",
+            "criterio_avaliacao": "criterio de avalia\u00e7\u00e3o",
+            "plano_aula": "plano de aula",
+            "disciplina": 1,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 2,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asdf",
+            "recursos": "asdf",
+            "criterio_avaliacao": "asdf",
+            "plano_aula": "asdf",
+            "disciplina": 7,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 3,
+        "fields": {
+            "dt_inicio": "2018-11-03",
+            "dt_fim": "2018-11-03",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 2,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 4,
+        "fields": {
+            "dt_inicio": "2018-11-03",
+            "dt_fim": "2018-11-03",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "SD",
+            "disciplina": 1,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 5,
+        "fields": {
+            "dt_inicio": "2018-11-03",
+            "dt_fim": "2018-11-03",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "as'",
+            "criterio_avaliacao": "asdf",
+            "plano_aula": "asdasf",
+            "disciplina": 8,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 6,
+        "fields": {
+            "dt_inicio": "2018-11-03",
+            "dt_fim": "2018-11-03",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 15,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 7,
+        "fields": {
+            "dt_inicio": "2018-11-03",
+            "dt_fim": "2018-11-03",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asdasd",
+            "recursos": "asdasd",
+            "criterio_avaliacao": "asdas54",
+            "plano_aula": "asd4ass545",
+            "disciplina": 16,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 8,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 9,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 9,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 3,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 10,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 4,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 11,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 5,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 12,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 1,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 6,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 13,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 10,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 14,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 11,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 15,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 12,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 16,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 13,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 17,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 2,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 14,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 18,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 17,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 19,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 18,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 20,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 19,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 21,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 21,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 22,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 3,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 20,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 23,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 23,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 24,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 22,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 25,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 24,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 26,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 25,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    },
+    {
+        "model": "curriculo.disciplinaofertada",
+        "pk": 27,
+        "fields": {
+            "dt_inicio": "2018-11-01",
+            "dt_fim": "2018-11-30",
+            "ano": 2018,
+            "semestre": 4,
+            "turma": "D",
+            "metodologia": "asd",
+            "recursos": "asd",
+            "criterio_avaliacao": "asd",
+            "plano_aula": "asd",
+            "disciplina": 26,
+            "professor": 1,
+            "coordenador": 1,
+            "curso": 1
+        }
+    }
+]
