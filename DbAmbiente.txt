@@ -1,0 +1,4 @@
+  execute o comando "python manage.py loaddata db.json" para importar o backup do banco
+
+- A senha do usuário admin é admin@123 
+- a senha dos demais usuarios é 123@mudar
